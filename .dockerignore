@@ -1,0 +1,27 @@
+# Node modules and Python virtual environment
+frontend/node_modules
+backend/venv
+frontend/build
+
+# Python cache files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+
+# SQLite DB (assuming you don't want the local db included)
+*.db
+
+# Miscellaneous files
+.git
+.gitignore
+README.md
+Dockerfile
+docker-compose.yml
+
+# logs
+*.log
+
+# environment files
+.env

@@ -138,7 +138,7 @@ const App = () => {
                                 y: graphData.map(d => d.Pump1),
                                 type: "scatter",
                                 mode: "lines",
-                                name: "Pump1 (Glycerol/Base)",
+                                name: "Pump1 (Glycerol/Glucose)",
                                 yaxis: "y1"
                             },
                             {
@@ -146,7 +146,7 @@ const App = () => {
                                 y: graphData.map(d => d.Pump2),
                                 type: "scatter",
                                 mode: "lines",
-                                name: "Pump2 (Glycerol/Base)",
+                                name: "Pump2 (Acid/Base)",
                                 yaxis: "y1"
                             },
                             {
